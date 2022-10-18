@@ -1,0 +1,62 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+    --sm: 1.5rem;
+    --md: 1.8rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Outfit', sans-serif;
+}
+/*Main*/
+main {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    color: var(--grayish-blue);
+    background-color: var(--light-gray);
+    font-size: var(--sm);
+    font-weight: 400;
+}
+/*Section*/
+.card-container {
+    width: 80%;
+    max-width: 270px;
+    height: auto;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: var(--white);
+}
+/*Figure*/
+figure {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+figure img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+/*Arcticle*/
+.card-description {
+    text-align: center;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+}
+
+.title {
+    margin-bottom: 1.5rem;
+    color: var(--dark-blue);
+    font-size: var(--md);
+    font-weight: 700;
+}
