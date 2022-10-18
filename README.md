@@ -20,6 +20,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
+- Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-O_9YTuRZZB](https://www.frontendmentor.io/solutions/qr-code-component-O_9YTuRZZB)
 - Live Site URL: [https://dublop.github.io/qr-code-component/](https://dublop.github.io/qr-code-component/)
 
 ## My process
